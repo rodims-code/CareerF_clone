@@ -24,28 +24,32 @@ nav ul li a{
 }
 
 .gride_container{
+    font-size: 40px;
     margin: 10rem;
     justify-content: space-evenly;
     /* margin-left: auto; */
     /* padding-left: 8px;
-    padding-right: 8px; */
-    
+    padding-right: 8px; */   
 }
-
+.gride_container #color_h1{
+    color: blue;
+}
 .gride_container h1{
     text-align: center;
 }
 .gride_container p{
     text-align: center;
+    font-size: 25px;
 }
 .gride_container .find{
     text-align: center;
 }
 .gride_container input[type = 'submit']{
+    font-size: 20px;
     text-decoration: none;
     border-color: blue;
     padding: 20px 20px;
-    border-radius: 2rem;
+    border-radius: 4rem;
     background-color: blue;
 }
 
@@ -53,9 +57,50 @@ nav ul li a{
     display: block;
 }
 .gride_container_two p{
+    font-size: 25px;
     text-align: center;
 }
 .gride_container_two .logo_wrapper{
     display: flex;
     justify-content: center;
+}
+
+.gride_container_tree{
+    display: block;
+}
+.gride_container_tree p{
+    font-size: 25px;
+    text-align: center;
+}
+.gride_container_tree .logo_wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.intro_video{
+    margin: 70px 0px 0px;
+    display: block;
+    font-size: 25px;
+}
+.video{
+    border-radius: 50px;
+}
+.element_one{
+    display: flex;
+}
+.element_one .int{
+    font-size: 50px;
+}
+.element_one .text{
+    margin: 50px;
+}
+
+.element_two{
+    display: flex;
+}
+.element_two .int{
+    font-size: 50px;
+}
+.element_two .text{
+    margin: 50px;
 }

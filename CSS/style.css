@@ -112,13 +112,23 @@ nav ul li a{
 .section_1 .text{
     font-size: 25px;
 }
-.section_1 .woman{
-    border-radius: 20px;
-}
 
+.section_1 .woman img{
+    border-radius: 20px ;
+}
+.section_1 .find input[type="submit"]{
+    text-decoration: none;
+    padding: 20px 15px 20px 15px;
+    border-radius: 40px;
+    border-color: black;
+    font-size: 30px;
+}
 .section_2{
     display: flex;
 }
 .section_2 .text{
     font-size: 25px;
+}
+.section_2 .img img{
+    border-radius: 20px;
 }

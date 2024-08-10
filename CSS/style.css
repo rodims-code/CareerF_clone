@@ -82,6 +82,9 @@ nav ul li a{
     display: block;
     font-size: 25px;
 }
+.intro_video .element{
+    display: flex;
+}
 .video{
     border-radius: 50px;
 }
@@ -131,4 +134,41 @@ nav ul li a{
 }
 .section_2 .img img{
     border-radius: 20px;
+}
+.section_2 .find input[type="submit"]{
+    text-decoration: none;
+    padding: 20px 15px 20px 15px;
+    border-radius: 40px;
+    border-color: black;
+    font-size: 30px; 
+}
+
+.section3{
+    display: flex;
+}
+.section3 .meet input[type="submit"]{
+    text-decoration: none;
+    padding: 20px 15px 20px 15px;
+    border-radius: 40px;
+    border-color: black;
+    font-size: 30px; 
+}
+
+.section3 .man img{
+    border-radius: 40px;
+}
+
+.section4{
+    display: flex;
+}
+.section4 .works input[type="submit"]{
+    text-decoration: none;
+    padding: 20px 15px 20px 15px;
+    border-radius: 40px;
+    border-color: black;
+    font-size: 30px; 
+}
+
+.section4 .man img{
+    border-radius: 40px;
 }

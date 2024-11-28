@@ -172,3 +172,33 @@ nav ul li a{
 .section4 .man img{
     border-radius: 40px;
 }
+
+.design h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.design p {
+    font-size: 20px;
+}
+
+.grid {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+    
+    
+}
+
+.grid .cell1{
+    background-color: brown;
+
+}
+
+.grid .cell2{
+    background-color: green;
+}
+.grid .cell3{
+    background-color: yellow;
+}
